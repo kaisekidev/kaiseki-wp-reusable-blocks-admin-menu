@@ -33,7 +33,7 @@ final class ReusableBlocksAdminMenu implements HookCallbackProviderInterface
                 : $this->menuTitle,
             $this->capability,
             'edit.php?post_type=wp_block',
-            fn() => '',
+            '',
             $this->iconUrl,
             $this->position
         );
