@@ -11,7 +11,7 @@ final class ReusableBlocksAdminMenu implements HookCallbackProviderInterface
     public function __construct(
         private readonly string $pageTitle = '',
         private readonly string $menuTitle = '',
-        private readonly string $capability = 'delete_published_posts',
+        private readonly string $capability = 'edit_posts',
         private readonly string $iconUrl = 'dashicons-layout',
         private readonly int $position = 21,
     ) {
@@ -33,7 +33,7 @@ final class ReusableBlocksAdminMenu implements HookCallbackProviderInterface
                 : $this->menuTitle,
             $this->capability,
             'edit.php?post_type=wp_block',
-            fn() => null,
+            fn() => '',
             $this->iconUrl,
             $this->position
         );
