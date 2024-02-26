@@ -5,7 +5,7 @@
         "array", "string", "int", "float", "bool", "iterable", "callable", "void", "object",
         "add_action",
         "add_menu_page",
-        "esc_html__"
+        "__"
     ],
     "php-core-extensions" : [
         "Core",
