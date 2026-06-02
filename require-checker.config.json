@@ -2,10 +2,10 @@
     "symbol-whitelist" : [
         "null", "true", "false",
         "static", "self", "parent",
-        "array", "string", "int", "float", "bool", "iterable", "callable", "void", "object",
+        "array", "string", "int", "float", "bool", "iterable", "callable", "void", "object", "mixed",
+        "__",
         "add_action",
-        "add_menu_page",
-        "__"
+        "add_menu_page"
     ],
     "php-core-extensions" : [
         "Core",
