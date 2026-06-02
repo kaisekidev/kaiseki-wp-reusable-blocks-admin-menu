@@ -34,7 +34,7 @@ return [
     'reusable_blocks_admin_menu' => [
         'page_title' => 'Reusable Blocks', // defaults to __('Reusable Blocks')
         'menu_title' => 'Reusable Blocks', // defaults to __('Reusable Blocks')
-        'capability' => 'edit_posts',      // capability required to see the menu
+        'capability' => 'delete_published_posts', // capability required to see the menu
         'icon'       => 'dashicons-layout', // dashicon (or icon URL)
         'position'   => 0,                  // menu position; 0 lets WordPress decide
     ],
